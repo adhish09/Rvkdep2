@@ -1,0 +1,71 @@
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  background: transparent;
+  width: 47px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+.carousel .slick-prev {
+  left: 0;
+  overflow-x: hidden;
+
+}
+.carousel .slick-next {
+  right: 0;
+  overflow-x: hidden;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.custom-indicator {
+  bottom: -65px;
+}
+.custom-indicator li {
+  width: 50px;
+  height: 50px;
+  filter: grayscale(100%);
+}
+.custom-indicator li.slick-active {
+  filter: grayscale(0%);
+}
+
+.multi__image{
+  width: 95%;
+
+}
+.main{
+  margin-left: 13px;
+}
+.ant-modal-content{
+  padding: 0px !important;
+  border: none;
+
+}
+
+.ant-modal-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-modal-close-x{
+  background-color: #da9532;
+  color: black;
+  font-weight: 900;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding-top: 6px;
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  font-size: 19px;
+}
+.lvyouicon{
+  border: 3px solid blue;
+}

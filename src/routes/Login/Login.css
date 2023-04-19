@@ -1,0 +1,221 @@
+body.active-modal1 {
+    overflow-y: hidden;
+  }
+
+  .btn-modal1 {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+  }
+
+  .modal1, .overlay1 {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  .modal1{
+  z-index: 1200;
+  }
+
+  .overlay1 {
+    background: rgba(49,49,49,0.8);
+  }
+  .modal-content1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+  }
+
+  .close-modal1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+  }
+
+
+
+
+
+  .modalBackground1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalContainer1 {
+
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    left:0px;
+    top:0px;
+    background:#CECECE;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .titleCloseBtn1 {
+    display: flex;
+    margin-right: 7px;
+    margin-top: 7px;
+    justify-content: flex-end;
+  }
+
+  .titleCloseBtn1 button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .body1 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #DA9532;
+
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  .body11 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.24px;
+color: #000000;
+margin-bottom: 8%;
+  }
+  .body11 span{
+ color: #DA9532;
+ cursor: pointer;
+}
+
+  .button1{
+    justify-content: center;
+    align-items: center;
+    padding: 12px 45px;
+    width: 200px;
+    height: 50px;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background: #DA9532;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .button1:hover{
+    font-size: 20px;
+    text-decoration: underline;
+ }
+  .mid1{
+    width: 23px;
+    height: 25px;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.24px;
+    color: #000000;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+  }
+  .logindetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pp{
+    width: 60%;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: -0.24px;
+
+color: #FFFFFF;
+  }
+  .ppp{
+    width: 60%;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 20px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.24px;
+
+/* primary color */
+
+color: #F00404;
+  }
+.loginemail{
+  padding-left: 10px;
+width: 60%;
+height: 40px;}
+.loginemail1{  padding-left: 10px;
+
+  width: 100%;
+  height: 40px;}
+.password-input-container {
+  position: relative;width: 60%;
+  height: 40px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}

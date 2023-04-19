@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+body {}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f1f1f1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    display: flex;
+    padding: 20px 2%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo486 {
+    font-weight: bolder;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    color: #DA9532;
+
+}
+
+.heading534 {
+    display: flex;
+
+    filter: drop-shadow(4px 4px 4px rgba(218, 149, 50, 0.25));
+}
+
+.heading5345 {
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    opacity: 0.8;
+}
+
+header .logo486 img {
+    width: 80px;
+    height: 80px;
+}
+
+
+header .navbar486 ul {
+    list-style: none;
+    font-size: 16px;
+
+}
+
+header .navbar486 ul li {
+    position: relative;
+    float: left;
+
+}
+
+header .navbar486 ul li a {
+    font-size: 16px;
+    padding: 18px;
+    color: #333;
+    display: block;
+}
+
+header .navbar486 ul li a:hover {
+    color: #da9532;
+}
+
+header .navbar486 ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar486 ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+header .navbar486 ul li:focus-within>ul,
+header .navbar486 ul li:hover>ul {
+    display: initial;
+}
+
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+.logo486:hover{
+    color: #da9532 !important; 
+}
+
+
+@media(max-width:900px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .logo486 img {
+        width: 60px;
+        height: 60px;
+    }
+
+    header .navbar486 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+
+    header .navbar486 ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .navbar486 ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar486 ul li ul li {
+        background: #eee;
+
+    }
+
+    #menu-bar:checked~.navbar486 {
+        display: initial;
+    }
+
+    #menu-bar:checked~.navbar486 ul li {
+        display: initial;
+    }
+
+    header .navbar486 ul li a {
+        font-size: 18px;
+        padding: 10px;
+        color: #333;
+        display: block;
+    }
+
+    header .navbar486 ul li ul li a {
+        font-size: 16px;
+        padding: 4px;
+        color: #333;
+    }
+
+    .iconheader {
+       position: fixed;
+       top: 23px;
+       right: 5px;
+    }
+}

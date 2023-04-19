@@ -1,0 +1,83 @@
+body.active-modal1015 {
+    overflow-y: hidden;
+  }
+
+
+
+  .modal1015, .overlay1015 {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  .modal1015{
+  z-index: 1;
+  }
+
+  .overlay1015 {
+    background: rgba(49,49,49,0.8);
+  }
+
+  .modalBackground1015 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalContainer1015 {
+    max-width: 2000px;
+    min-width: 100px;
+    margin: 20px;
+    width: 800px;
+    height: auto;
+    left:0px;
+    top:0px;
+    background:#CECECE;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .titleCloseBtn1015 {
+    display: flex;
+    margin-right: 7px;
+    margin-top: 7px;
+    justify-content: flex-end;
+  }
+
+  .titleCloseBtn1015 button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+.modalContainer1015 img{
+    max-width: 2000px;
+    min-width: 100px;
+    width: 700px;
+    height: auto;
+    padding: 20px;
+}
+@media screen and (max-width: 740px) {
+    .modalContainer1015 img{
+        width: 600px;
+    height: auto;
+    }}
+    @media screen and (max-width: 640px) {
+        .modalContainer1015 img{
+            width: 500px;
+        height: auto;
+        }}
+        @media screen and (max-width: 540px) {
+            .modalContainer1015 img{
+                width: 400px;
+            height: auto;
+            }}

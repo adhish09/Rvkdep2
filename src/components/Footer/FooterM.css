@@ -1,0 +1,136 @@
+ 
+.footermobile{
+    overflow-x: hidden;
+    background-color: #2f2f2f;
+    padding: 18px;
+}
+.footermainhead{
+    font-size: 18px;
+    font-weight: 600;
+    }
+    .footermaincont{
+        font-size: 16px;
+        line-height: 25px;
+        word-spacing: 0.3px;
+    }
+.subscribefooter9{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #a5a5a5;
+}
+.footermaincont67{
+  width: 70%;
+
+}
+.footermaincont{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 2px 10px;
+
+}
+.footermaincont978{
+    width: 30%;
+}
+.footermaincont98{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: #da9532;
+
+}
+ 
+.break5947{
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.subscribelastmain34{
+background-color: #2F2F2F;
+}
+.subscribelast75{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.logo853{
+    display: flex;
+    padding: 20px;
+}
+.logo853 img{
+    width:60px;
+    height: 60px;
+}
+.logoname847{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 10px;
+align-items: center;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+color: #DA9532;
+}
+.footeraddress87{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+}
+.footernumber86{
+    display: flex;
+color: white;
+font-size: 14px;
+width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.subscribelast735{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.footer245{
+    width: 6%;
+}
+.footerlogo8347{
+    width: 47%;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+.footerlogo83457{
+    width: 47%;
+    justify-content: flex-start;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.copyrightlast87{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.copyright746{
+border-top: 0.5px solid black;
+padding: 10px 0px;
+    color: rgb(109, 109, 109);
+    line-height: 30px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+display: flex;
+width: 95%;
+}
